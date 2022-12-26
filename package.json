@@ -1,7 +1,7 @@
 {
-  "name": "twin.macro-vite",
+  "name": "@ui-snippet/drag-and-drop-upload",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,10 +14,12 @@
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-file-drop": "^3.1.6",
     "twin.macro": "^3.1.0"
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.10.5",
+    "@headlessui/react": "^1.7.7",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/line-clamp": "^0.4.2",

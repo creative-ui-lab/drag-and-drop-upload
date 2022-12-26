@@ -1,24 +1,11 @@
-vite에서 twin.macro를 사용하기 위해서는 `babel-plugin-twin` `babel-plugin-macros`가 필요하다.
-
-`@emotion/styled` `@emtoion/react`를 사용하는데 위 babel 플러그인 두가지만 설정하면 `<div css="..." data-tw=""/>` 이런식으로 나오게된다. css속성은 `@emotion`의 기능이기 때문에
-
-typescript 설정에서 jsxImportSource를 `@emotion/react`로 설정해줘야한다.
-
-```json
-{
-  "compilerOptions": {
-    "jsxImportSource": "@emotion/react"
-```
-
-## 🤔
-
-### 많은 수의 endpoint를 가져야할떄
-
-- https://stackoverflow.com/questions/70522494/multiple-entry-points-in-vite
-
+<img width="912" alt="스크린샷 2022-12-26 오후 11 55 16" src="https://user-images.githubusercontent.com/42893446/209561137-7758b2f3-3ff9-4462-aa60-738c66d4fe1b.png">
+<img width="912" alt="스크린샷 2022-12-26 오후 11 55 41" src="https://user-images.githubusercontent.com/42893446/209561148-8db8ad86-609f-4dca-a189-3c62d2ddaedb.png">
+<img width="912" alt="스크린샷 2022-12-26 오후 11 55 22" src="https://user-images.githubusercontent.com/42893446/209561146-7627a247-a32f-40fa-b307-fdd444307108.png">
 
 
 ## 참고자료
 
-- https://github.com/ben-rogerson/babel-plugin-twin/issues/9#issuecomment-1318545946
-- https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react
+https://codepen.io/miyarin/pen/dwNXrZ?editors=1010
+https://codesandbox.io/s/drag-and-drop-file-pu4oy?file=/src/App.js:1657-1781
+https://stackoverflow.com/questions/72557334/react-hook-form-and-setvalue-of-file-input
+https://stackoverflow.com/questions/68009415/react-hook-form-and-input-type-file
