@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'src/**'
+      - '.github/workflows/gh-page.yaml'
+      # vite config and source code
+      - 'index.html'
+      - 'vite.config.ts'
+      - 'tailwind.config.cjs'
 
 jobs:
   build:
